@@ -1,0 +1,118 @@
+header-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+.header-content h1 {
+  font-size: 4rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.header-content p {
+  font-size: 1.2rem;
+  line-height: 1.9;
+  color: #066789;
+}
+
+.fullname {
+  font-size: 3rem;
+  margin-top: 10px;
+  color: #e08804;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.header-payment-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-left: 30px;
+  width: 90%;
+}
+.header-payment-container button {
+  background-color: #e08804;
+  border: none;
+  padding: 10px;
+  font-size: 1.2rem;
+  font-family: "Times New Roman", Times, serif;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  color: #fff;
+}
+
+/* payment icons */
+
+.fa-paypal {
+  color: #003887;
+  font-size: 2rem;
+}
+
+.fa-cc-visa {
+  color: #003887;
+  font-size: 2rem;
+}
+
+.fa-cc-mastercard {
+  color: #cc3c18;
+  font-size: 2rem;
+}
+
+/* prifile image */
+.profile-image-container {
+  position: relative;
+}
+.profile-image-container img {
+  width: 100%;
+  height: 100%;
+  border-bottom: 10px solid #fcd212;
+  border-left: 10px solid #7013c7;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 10px;
+}
+
+.circle-1 {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  bottom: 0px;
+  margin: 10px;
+  box-shadow: 0 4px rgba(0, 0, 0, 0.1);
+  border-bottom: 10px solid #b31227;
+  border-radius: 16px;
+}
+.circle-1 {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  bottom: 0px;
+  margin: 10px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border-bottom: 10px solid #b31227;
+  border-radius: 16px;
+}
+.circle-2 {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  top: 10px;
+  right: 10px;
+  bottom: 10px;
+  margin: 10px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border-bottom: 10px solid #8ea09269;
+  border-radius: 16px;
+}
+
+/* media  */
